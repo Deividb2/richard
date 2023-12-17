@@ -1,7 +1,8 @@
 <script>
-  import HeaderView from './components/HeaderView.vue';
-  import BannerView from './components/BannerView.vue';
+  import HeaderView from './components/HeaderView.vue'
+  import BannerView from './components/BannerView.vue'
   import SobreView from './components/SobreView.vue'
+  import RecursosView from './components/RecursosView.vue'
   import MetricasView from './components/MetricasView.vue'
 
   export default {
@@ -9,6 +10,7 @@
         HeaderView,
         BannerView,
         SobreView,
+        RecursosView,
         MetricasView
       }
   }
@@ -18,5 +20,6 @@
   <HeaderView  />
   <BannerView />
   <SobreView />
+  <RecursosView />
   <MetricasView />
 </template>

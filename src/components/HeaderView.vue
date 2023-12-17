@@ -31,7 +31,7 @@
                     <li><a href="#">Download</a></li>
                 </ul>
     
-                <div class="btn" @click="menu">
+                <div :class="['btn', {'btnPreto' : toggleMenu}]" @click="menu">
                     <button>Menu</button>
                 </div>
             </nav>
@@ -63,7 +63,7 @@ header {
     align-items: center;
     height: 6vh;
     background-color: transparent;
-    padding: 2rem 1rem;
+    padding: 2rem 0 2rem 1rem;
 
     @media (min-width: 992px) {
         padding: 3rem 8rem;
@@ -95,11 +95,20 @@ header {
 }
 
 .btn {
+    height: calc(6vh + 2rem);
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media (min-width: 992px) {
         display: none;
     }
 
+}
+
+.btnPreto {
+    background-color: #000;
 }
 
 .menuMob {
