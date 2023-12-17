@@ -55,7 +55,6 @@ header {
     position: absolute;
     right: 0;
     left: 0;
-    /* padding: 1rem; */
 }
 
 .cabecalho {
@@ -64,7 +63,7 @@ header {
     align-items: center;
     height: 6vh;
     background-color: transparent;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
 
     @media (min-width: 992px) {
         padding: 3rem 8rem;
@@ -115,7 +114,7 @@ header {
 }
 
 .menuOpen {
-    height: 28vh;
+    height: 20rem;
     transition: all .5s ease;
 }
 
