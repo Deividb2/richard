@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <section class="comida">
+    <section class="comida" id="how-to-use">
         <div class="comidaBox">
             <div class="boxTexto">       
                 <h3 class="titulo">AENEAN CONSECTETUR PORTA</h3>

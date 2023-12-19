@@ -1,16 +1,16 @@
 <script></script>
 
 <template>
-    <section class="newsletter">
+    <section class="newsletter" id="download">
         <div class="baixar">
             <h3 class="baixarTitulo">Ready to get started?</h3>
             <div class="baixarBtnBox">
                 <button>Download Now</button>
-                <button>Get it Touch</button>
+                <a href="#contato">Get it Touch</a>
             </div>
         </div>
 
-        <div class="contato">
+        <div class="contato" id="contato">
             <h3 class="contatoTitulo">Get updates from Richard</h3>
             <h4 class="contatoSubtitulo">New course alerts, discounts and free lessons</h4>
 
@@ -44,9 +44,9 @@
 }   
 
 .baixarTitulo, .contatoTitulo {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #fff;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .baixarBtnBox {
@@ -54,15 +54,16 @@
     flex-direction: column;
     gap: .5rem;
 
-    button {
+    button, a {
         color: #fff;
         font-weight: bold;
         font-size: 1rem;
-        padding: 20px 40px;
+        padding: 1.25rem 2.5rem;
         background-color: transparent;
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        text-decoration: none;
     }
 
     @media (min-width: 768px) {
@@ -83,7 +84,7 @@
     }
 }
 
-.baixarBtnBox button:last-child {
+.baixarBtnBox a:last-child {
     box-shadow: inset 0 0 0 2px #ffffff33;
 
     &:hover {
@@ -122,12 +123,13 @@
 .email {
     border: none;
     outline: none;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
     text-align: center;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    transition: all .5s ease;
 
-    &:focus {
+    &:focus, &:hover {
         box-shadow: inset 0 0 0 2px #fc0a7e;    
     }
 
@@ -135,14 +137,14 @@
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
         text-align: start;
-        padding: 10px 0 8px 20px;
+        padding: 0.6rem 0 0.5rem 1.25rem;
         width: 15rem;
     }
 }
 
 .btn {
     border: none;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
     background-color: #fc0a7e;
     color: #fff;
     font-size: 1rem;
@@ -160,5 +162,4 @@
         background-color: #000;
     }
 }
-
 </style>

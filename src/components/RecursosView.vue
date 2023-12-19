@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <section class="recursos">
+    <section class="recursos" id="features">
         <div class="recursosBox">
             <div class="recursosBoxTexto">
                 <h3 class="titulo">AENEAN CONSECTETUR</h3>

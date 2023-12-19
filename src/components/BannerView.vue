@@ -17,7 +17,7 @@
         <div class="box-text">
             <h2 class="titulo">Momentum</h2>
             <h3 class="texto">Lounch your product - and savor the momentum.</h3>
-            <a href="#" class="btn-get">Get the App</a>
+            <a href="#download" class="btn-get">Get the App</a>
         </div>
 
         <div>

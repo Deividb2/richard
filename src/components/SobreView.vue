@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <section class="sobre">
+    <section class="sobre" id="about">
         <div class="textos">
             <h3>AENEAN CONSECTETUR PORTA</h3>
             <h3>Nullam quis risus eget urna mollis ornare vel eu leo.</h3>

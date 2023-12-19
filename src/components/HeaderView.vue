@@ -19,16 +19,16 @@
 </script>
 
 <template>
-    <header>
+    <header id="header">
         <div class="cabecalho">
             <img :src="logoImg" alt="Logo Richard" class="logo" @click="redirect">
     
             <nav class="navegation">
                 <ul class="lista">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">How to use</a></li>
-                    <li><a href="#">Download</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-to-use">How to use</a></li>
+                    <li><a href="#download">Download</a></li>
                 </ul>
     
                 <div :class="['btn', {'btnPreto' : toggleMenu}]" @click="menu">
@@ -39,13 +39,17 @@
 
         <div :class="['menuMob', {'menuOpen' : toggleMenu}]">
             <ul class="listaMob">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How to use</a></li>
-                <li><a href="#">Download</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-to-use">How to use</a></li>
+                <li><a href="#download">Download</a></li>
             </ul>
         </div>
     </header>
+
+    <div class="btnVoltar">
+        <a href="#header">Voltar</a>
+    </div>
 </template>
 
 <style scoped>
@@ -139,6 +143,22 @@ header {
         text-decoration: none;
     }
 
+}
+
+.btnVoltar {
+    padding: 1rem 1.5rem;
+    background-color: #000;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    box-shadow: inset 0 0 0 2px #dd1173;
+    border-radius: 5px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
 }
 
 </style>
