@@ -19,32 +19,32 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #1b1b1b;
-    padding-top: 73px;
+    background-color: var(--cinza1);
+    padding-top: 4.6rem;
 }
 
 .textos {
     max-width: 45rem;
-    padding: 16px 20px 40px;
+    padding: 1rem 1.25rem 2.5rem;
 }
 
 .textos h3:first-child {
-    font-size: 12px;
-    color: #a8a8a8;
+    font-size: 0.75rem;
+    color: var(--cinza5);
     letter-spacing: 2px;
 }
 
 .textos h3:last-child {
-    font-size: 28px;
-    color: #fff;
-    margin: 25px 0;
+    font-size: 1.75rem;
+    color: var(--branco);
+    margin: 1.6rem 0;
 
     @media (min-width: 768px) {
-        font-size: 34px;
+        font-size: 2.2rem;
     }
 
     @media (min-width: 1024px) {
-        font-size: 38px;
+        font-size: 2.4rem;
     }
 }
 

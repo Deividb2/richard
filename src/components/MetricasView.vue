@@ -107,13 +107,13 @@ import SilverIcon from '../../public/img/icon-silverware.svg'
 
 .geraisTitulo {
     margin: 0.6rem 0; 
-    color: #000;
+    color: var(--preto);
     font-size: 1.1rem;
 }
 
 .geraisTexto {
     margin-bottom: 0.6rem;
-    color: #6b6b6b;
+    color: var(--cinza4);
     font-size: 1rem;
     line-height: 1.8rem;
 }
@@ -145,7 +145,7 @@ import SilverIcon from '../../public/img/icon-silverware.svg'
 .numericasNumero {
     font-size: 2.5rem;
     font-weight: 400;
-    color: #333333; 
+    color: var(--cinza2); 
 
     @media (min-width: 768px) {
         font-size: 3.7rem;
@@ -157,7 +157,7 @@ import SilverIcon from '../../public/img/icon-silverware.svg'
     font-size: 1.1rem;
     font-weight: 700;
     text-align: center;
-    color: #000; 
+    color: var(--preto); 
     line-height: 1.5rem;
     margin: 0.6rem 0;
 }

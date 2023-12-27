@@ -33,7 +33,7 @@
     flex-direction: column;
     padding: 15rem 0 0 2rem;
     height: 100vh;
-    background-image: linear-gradient(135deg, #dd1173, #350e47);
+    background-image: linear-gradient(135deg, var(--rosa2), var(--roxo1));
     
     @media (min-width: 992px) {
         padding: 14rem 0 0 8rem;
@@ -41,7 +41,7 @@
 }
 
 .box-text {
-    color: #fff;
+    color: var(--branco);
     font-weight: bold;
 }
 
@@ -70,8 +70,8 @@
 
 .btn-get {
     font-size: 1rem;
-    color: #fff;
-    background-color: #fc0a7e;
+    color: var(--branco);
+    background-color: var(--rosa1);
     padding: 1.25rem 2.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -84,8 +84,8 @@
     }
 
     &:hover {
-        background-color: #fff;
-        color: #6b6b6b;
+        background-color: var(--branco);
+        color: var(--cinza4);
     }
     
 }

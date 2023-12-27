@@ -42,7 +42,7 @@
 }   
 
 .comidaBox {
-    padding: 12px;
+    padding: 0.75rem;
 
     @media (min-width: 768px) {
         display: flex;
@@ -70,14 +70,14 @@
 .titulo {
     padding-bottom: 5px;
     font-size: 0.7rem;
-    color: #a8a8a8;
+    color: var(--cinza5);
     letter-spacing: 2px;
 }
 
 .subtitulo {
     margin: 1.2rem 0;
     font-size: 1.7rem;
-    color: #000;
+    color: var(--preto);
 
     @media (min-width: 768px) {
         font-size: 2.3rem;
@@ -87,11 +87,11 @@
 .texto {
     margin-bottom: 1.2rem;
     font-size: 1rem;
-    color: #6b6b6b;
+    color: var(--cinza4);
     line-height: 1.9rem;
 
     a {
-        color: #000;
+        color: var(--preto);
     }
 }
 

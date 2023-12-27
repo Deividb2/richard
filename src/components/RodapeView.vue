@@ -19,11 +19,11 @@
 
 <style scoped>
 .rodape {
-    background-color: #1b1b1b;
+    background-color: var(--cinza1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 16px 40px;
+    padding: 1.9rem 1rem 2.5rem;
 }
 
 .imgR {
@@ -42,12 +42,16 @@
 }
 
 .item {
-    margin: 0 15px 12px;
-    font-size: 12px;
+    margin: 0 0.9rem 0.75rem;
+    font-size: 0.75rem;
 
     a {
         text-decoration: none;
-        color: #6b6b6b;
+        color: var(--cinza4);
+
+        &:hover {
+            color: var(--branco);
+        }
     }
 }
 

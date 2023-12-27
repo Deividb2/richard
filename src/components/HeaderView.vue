@@ -88,11 +88,11 @@ header {
 
         li a {
             text-decoration: none;
-            color: #fff;
+            color: var(--branco);
             padding-bottom: .8rem;
 
             &:hover {
-            border-bottom: 4px solid #dd1173;
+            border-bottom: 4px solid var(--rosa2);
         }
         }
     }
@@ -112,11 +112,11 @@ header {
 }
 
 .btnPreto {
-    background-color: #000;
+    background-color: var(--preto);
 }
 
 .menuMob {
-    background-color: #000;
+    background-color: var(--preto);
     height: 0;
     overflow: hidden;
     transition: all .5s ease;
@@ -139,7 +139,7 @@ header {
     font-size: 1.1rem;
 
     li a {
-        color: #fff;
+        color: var(--branco);
         text-decoration: none;
     }
 
@@ -147,16 +147,16 @@ header {
 
 .btnVoltar {
     padding: 1rem 1.5rem;
-    background-color: #000;
+    background-color: var(--preto);
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    box-shadow: inset 0 0 0 2px #dd1173;
+    box-shadow: inset 0 0 0 2px var(--rosa2);
     border-radius: 5px;
 
     a {
         text-decoration: none;
-        color: #fff;
+        color: var(--branco);
         font-weight: bold;
     }
 }

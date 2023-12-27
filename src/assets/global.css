@@ -11,4 +11,13 @@ body, * {
 :root {
   --branco: #fff;
   --preto: #000;
+  --rosa1: #fc0a7e;
+  --rosa2: #dd1173;
+  --roxo1: #350e47;
+  --roxo2: #602bb6;
+  --cinza1: #1b1b1b;
+  --cinza2: #333333;
+  --cinza3: #ffffff33;
+  --cinza4: #6b6b6b;
+  --cinza5: #a8a8a8;
 }

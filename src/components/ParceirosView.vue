@@ -2,7 +2,10 @@
 
 <template>
     <section class="parceiros">
+
+        <!-- Carousel com feedbacks -->
         <div></div>
+
         <img src="../../public/img/parceiros.png" alt="Parceiros da Richard" class="imgParceiros">
         <img src="../../public/img/apps-banner.jpeg" alt="Banner do app Richard" class="imgApp">
     </section>

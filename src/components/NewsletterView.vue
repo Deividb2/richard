@@ -19,7 +19,6 @@
                 <input type="submit" value="Subscribe" class="btn" data-wait="Please wait...">
             </form>
         </div>
-
     </section>
 </template>
 
@@ -36,7 +35,7 @@
     gap: 0.6rem;
     text-align: center;
     padding: 7.65rem 1rem 11.4rem 1rem;
-    background: url(../../public/img/wavy-bg.svg) center / cover, linear-gradient(135deg, #fc0a7e, #602bb6);
+    background: url(../../public/img/wavy-bg.svg) center / cover, linear-gradient(135deg, var(--rosa1), var(--roxo2));
 
     @media (min-width: 768px) {
         padding: 6.4rem 0 8.9rem 0;
@@ -45,7 +44,7 @@
 
 .baixarTitulo, .contatoTitulo {
     font-size: 1.75rem;
-    color: #fff;
+    color: var(--branco);
     margin: 1.25rem 0;
 }
 
@@ -55,7 +54,7 @@
     gap: .5rem;
 
     button, a {
-        color: #fff;
+        color: var(--branco);
         font-weight: bold;
         font-size: 1rem;
         padding: 1.25rem 2.5rem;
@@ -74,27 +73,27 @@
 }
 
 .baixarBtnBox button:first-child {
-    background-color: #fc0a7e;
+    background-color: var(--rosa1);
     transition: bic-bezier(.789, .159, .25, 1);
     transition: background-color 500ms cubic-bezier(.789, .159, .25, 1), color 200ms cubic-bezier(.789, .159, .25, 1);
 
     &:hover {
-        background-color: #fff;
-        color: #6b6b6b;
+        background-color: var(--branco);
+        color: var(--cinza4);
     }
 }
 
 .baixarBtnBox a:last-child {
-    box-shadow: inset 0 0 0 2px #ffffff33;
+    box-shadow: inset 0 0 0 2px var(--cinza3);
 
     &:hover {
-        box-shadow: inset 0 0 0 2px #fff;
+        box-shadow: inset 0 0 0 2px var(--branco);
 
     }
 }
 
 .contato {
-    background-color: #1b1b1b;
+    background-color: var(--cinza1);
     padding: 4.7rem 1rem 6rem;
     display: flex;
     flex-direction: column;
@@ -102,7 +101,7 @@
 }
 
 .contatoSubtitulo {
-    color: #6b6b6b;
+    color: var(--cinza4);
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -130,7 +129,7 @@
     transition: all .5s ease;
 
     &:focus, &:hover {
-        box-shadow: inset 0 0 0 2px #fc0a7e;    
+        box-shadow: inset 0 0 0 2px var(--rosa1);    
     }
 
     @media (min-width: 768px)  {
@@ -145,8 +144,8 @@
 .btn {
     border: none;
     padding: 1.25rem 2.5rem;
-    background-color: #fc0a7e;
-    color: #fff;
+    background-color: var(--rosa1);
+    color: var(--branco);
     font-size: 1rem;
     font-weight: 600;
     border-bottom-right-radius: 3px;
@@ -159,7 +158,7 @@
     }
 
     &:hover {
-        background-color: #000;
+        background-color: var(--preto);
     }
 }
 </style>
